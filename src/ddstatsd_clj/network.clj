@@ -12,7 +12,7 @@
         port (:port destination)]
     (DatagramPacket. (.getBytes data) (.length data) address port)))
 
-(defn send-packet
+(defn ^:no-doc send-packet
   [destination data]
   {:pre (spec/check-input ::spec/connection-map destination)}
   (let [socket (create-socket)

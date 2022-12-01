@@ -12,6 +12,6 @@
 
 (s/def ::tags map?)
 
-(defn check-input
+(defn ^:no-doc check-input
   [spec data]
   (s/valid? spec data))
