@@ -10,6 +10,7 @@
 
 (s/def ::metric-type #{"increment" "decrement" "gauge" "timing"})
 
+(s/def ::tags map?)
 
 (defn check-input
   [spec data]
