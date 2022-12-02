@@ -2,7 +2,8 @@
 
 
 **Latest version**<br>
-[![Clojars Project](https://img.shields.io/clojars/v/org.clojars.caplonso/ddstatsd-clj.svg)](https://clojars.org/org.clojars.caplonso/ddstatsd-clj)
+[![Clojars Project](https://img.shields.io/clojars/v/com.github.caplonso/ddstatsd-clj.svg)](https://clojars.org/com.github.caplonso/ddstatsd-clj)
+
 
 
 A Clojure library designed to send custom metrics to datadog through the DogStatsD agent.
