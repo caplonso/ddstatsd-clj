@@ -29,15 +29,6 @@
   "
     Sends the metric value to dogstatsD.
 
-    **Params**
-   | name | type | description
-   | ---- | ---- | ----------
-   | `connection-map` | `map` | Map containing the host and port which the metric will be sent.
-   | `metric-name` | `string` | The name of metric, kebab case is converted to snake case in the dd metric panel
-   | `type` | `string` | Metric type, allowed values: `increment`, `decrement`, `timing`, `gauge`
-   | `value` | `int` | Integer value for the metric.
-   | `tags` | `map` | Map containing the tags for the metric
-
    Example:
    ```clojure
    (def connection-map {:host \"localhost\" :port 8125})
